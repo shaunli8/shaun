@@ -4,10 +4,10 @@ title: Student Blog
 ---
 
 
-## Build you Home Page here 
-This is about your journey. Start now!!!
-
-## Overview of Hacks, Study and Tangibles
+## Shaun Li | Period 3 CSSE
+Welcome to my blog! This is my first time coding ever in my life but I am looking forward to updating my website with my ideas and creations. 
+## Current Activities / Projects
+WIP
 Blogging in GitHub pages is a way to learn and code at the same time. 
 
 - Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
