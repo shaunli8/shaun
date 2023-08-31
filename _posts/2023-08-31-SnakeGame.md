@@ -1,61 +1,3 @@
----
-layout: default
-title: Shaun's Blog
----
-
-
-## Shaun Li | Period 3 CSSE
-Welcome to my blog! This is my first time coding ever in my life but I am looking forward to updating my website with my ideas and creations. 
-## Activities / Projects
-
-⬇️⬇️⬇️ Freeform Picture Introduction ⬇️⬇️⬇️
-
-<img src="images/IMG_0111.jpg" width="300"/>
-
-## Lab Notebook
-
-🌙 Week 0 - 8/16 to 8/18
-
-✅ My Weekly Goal: Learn the basics of computer science and set up Visual Studio Code
-
-📅 8/16: First day of school + Teacher/Course introduction
-
-📅 8/17: Downloaded and set up Visual Studio Code + Freeform Picture
-
-📅 8/18: Learned to run commands and set up Homebrew on Visual Studio Code
-
------------------------------------------------------------------------------
-
-🌙 Week 1 - 8/21 to 8/25
-
-✅ My Weekly Goal: Set up Github Account/Page and Install Key Dependencies on Visual Studio Code
-
-📅 8/21: Created Github account
-
-📅 8/22: Set up terminal and created new repository
-
-📅 8/23: Installed Ruby, Python, and Jupyter
-
-📅 8/24: Ran version checks - Multiple errors found related to brew command
-
-📅 8/25: Fixed brew error and ran Apple sillicon only error if Python fails
-
------------------------------------------------------------------------------
-
-🌙 Week 2 - 8/28 to 9/1
-
-✅ My Weekly Goal: Set up my own blog site and learn to commit/sync changes
-
-📅 8/28: Created blog site and learned how to commit changes
-
-📅 8/29: Changed text and theme for website, also added Freeform picture to page
-
-📅 8/30: 
-
------------------------------------------------------------------------------
-
-## Snake Game
-
 <style>
 
     body{
@@ -123,20 +65,20 @@ Welcome to my blog! This is my first time coding ever in my life but I am lookin
 
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
-        <p class="fs-4">Score: <span id="score_value">0</span></p>
+        <p class="fs-4">Snake score: <span id="score_value">0</span></p>
     </header>
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
         <div id="menu" class="py-4 text-light">
-            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> (or press warp) to begin wasting your time on this game that I probably copied and pasted from a website</p>
-            <a id="new_game" class="link-alert">warp</a>
-            <a id="setting_menu" class="link-alert">game settings</a>
+            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
+            <a id="new_game" class="link-alert">new game</a>
+            <a id="setting_menu" class="link-alert">settings</a>
         </div>
         <!-- Game Over -->
         <div id="gameover" class="py-4 text-light">
-            <p>skill issue u died 💀💀💀, press <span style="background-color: #FFFFFF; color: #000000">Space</span> to try again or use your time more wisely on something more productive</p>
-            <a id="new_game1" class="link-alert">waste more time playing this game</a>
-            <a id="setting_menu1" class="link-alert">game settings</a>
+            <p>Game Over, press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
+            <a id="new_game1" class="link-alert">new game</a>
+            <a id="setting_menu1" class="link-alert">settings</a>
         </div>
         <!-- Play Screen -->
         <canvas id="snake" class="wrap" width="320" height="320" tabindex="1"></canvas>
@@ -420,62 +362,3 @@ Welcome to my blog! This is my first time coding ever in my life but I am lookin
         }
     })();
 </script>
-
------------------------------------------------------------------------------
-
-## Calculator
-
-<html>
-<head>
-<meta charset="utf-8">
-<title>JavaSctipt Calculator | Web Dev Trick</title>
-	<link rel="stylesheet" href="style.css">
-</head>
- 
-<body>
-	<script>
-	function calcNumbers(result){
-		form.displayResult.value=form.displayResult.value+result;
-		
-	}
-	</script>
-	<div class="container">
-		<form name="form">
-		<div class="display">
-			<input type="text" placeholder="0" name="displayResult" />
-		</div>
-			<div class="buttons">
-			  <div class="row">
-				<input type="button" name="b7" value="7" onClick="calcNumbers(b7.value)">
-				  <input type="button" name="b8" value="8" onClick="calcNumbers(b8.value)">
-				  <input type="button" name="b9" value="9" onClick="calcNumbers(b9.value)">
-				  <input type="button" name="addb" value="+" onClick="calcNumbers(addb.value)">
-				</div>
-				
-				<div class="row">
-				<input type="button" name="b4" value="4" onClick="calcNumbers(b4.value)">
-				  <input type="button" name="b5" value="5" onClick="calcNumbers(b5.value)">
-				  <input type="button" name="b6" value="6" onClick="calcNumbers(b6.value)">
-				  <input type="button" name="subb" value="-" onClick="calcNumbers(subb.value)">
-				</div>
-				
-				<div class="row">
-				<input type="button" name="b1" value="1" onClick="calcNumbers(b1.value)">
-				  <input type="button" name="b2" value="2" onClick="calcNumbers(b2.value)">
-				  <input type="button" name="b3" value="3" onClick="calcNumbers(b3.value)">
-				  <input type="button" name="mulb" value="*" onClick="calcNumbers(mulb.value)">
-				</div>
-				
-				<div class="row">
-				<input type="button" name="b0" value="0" onClick="calcNumbers(b0.value)">
-				  <input type="button" name="potb" value="." onClick="calcNumbers(potb.value)">
-				  <input type="button" name="divb" value="/" onClick="calcNumbers(divb.value)">
-				  <input type="button" class="red" value="=" onClick="displayResult.value=eval(displayResult.value)">
-				</div>
-			</div>
-		
-		</form>
-	</div>
-</body>
-	
-</html>
