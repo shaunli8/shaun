@@ -1,3 +1,16 @@
+---
+toc: false
+comments: false
+layout: post
+title: Snake Game
+description: Build your first Blog.  This will help us communicate results.
+type: plans
+courses: {compsci: {week: 0} }
+categories: [C1.4]
+---
+
+[Back to Main Home Page](http://0.0.0.0:4200/student/)
+
 <style>
 
     body{

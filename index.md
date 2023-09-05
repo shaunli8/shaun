@@ -6,13 +6,16 @@ title: Shaun's Blog
 
 ## Shaun Li | Period 3 CSSE
 Welcome to my blog! This is my first time coding ever in my life but I am looking forward to updating my website with my ideas and creations. 
+
+## [Subpages (WIP)](http://0.0.0.0:4200/student/schedule)
+
 ## Activities / Projects
 
 ⬇️⬇️⬇️ Freeform Picture Introduction ⬇️⬇️⬇️
 
 <img src="images/IMG_0111.jpg" width="300"/>
 
-## Lab Notebook
+## Lab Notebook (Timebox)
 
 🌙 Week 0 - 8/16 to 8/18
 
@@ -128,8 +131,8 @@ Welcome to my blog! This is my first time coding ever in my life but I am lookin
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
         <div id="menu" class="py-4 text-light">
-            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> (or press warp) to begin wasting your time on this game that I probably copied and pasted from a website</p>
-            <a id="new_game" class="link-alert">warp</a>
+            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> (or press start) to begin wasting your time on this game that I probably copied and pasted from a website</p>
+            <a id="new_game" class="link-alert">start</a>
             <a id="setting_menu" class="link-alert">game settings</a>
         </div>
         <!-- Game Over -->
