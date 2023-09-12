@@ -3,7 +3,7 @@ toc: false
 comments: false
 layout: post
 title: Snake Game
-description: Build your first Blog.  This will help us communicate results.
+description: My modified snake game. Changed colors and text functions. 
 type: plans
 courses: {compsci: {week: 0} }
 categories: [C1.4]
@@ -16,7 +16,7 @@ categories: [C1.4]
     body{
     }
     .wrap{
-        margin-left: auto;
+        margin-left: amaketo;
         margin-right: auto;
     }
 

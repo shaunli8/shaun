@@ -53,7 +53,23 @@ Welcome to my blog! This is my first time coding ever in my life but I am lookin
 
 📅 8/29: Changed text and theme for website, also added Freeform picture to page
 
-📅 8/30: 
+📅 8/31: Added snake game and altered text/color of game
+
+📅 9/1: Started to create subpages on my website and added a basic calculator
+
+-----------------------------------------------------------------------------
+
+🌙 Week 2 - 9/5 to 9/8
+
+✅ My Weekly Goal: Finish creating subpages and add more projects from teache repository
+
+📅 9/5: Learned to create table from teacher repository and continued to work on subpages
+
+📅 9/6: Transfered and added snake game to subpages
+
+📅 9/7: 
+
+📅 9/8: 
 
 -----------------------------------------------------------------------------
 
@@ -137,7 +153,7 @@ Welcome to my blog! This is my first time coding ever in my life but I am lookin
         </div>
         <!-- Game Over -->
         <div id="gameover" class="py-4 text-light">
-            <p>skill issue u died 💀💀💀, press <span style="background-color: #FFFFFF; color: #000000">Space</span> to try again or use your time more wisely on something more productive</p>
+            <p>skill issue u died, press <span style="background-color: #FFFFFF; color: #000000">Space</span> to try again or use your time more wisely on something more productive</p>
             <a id="new_game1" class="link-alert">waste more time playing this game</a>
             <a id="setting_menu1" class="link-alert">game settings</a>
         </div>
@@ -418,8 +434,8 @@ Welcome to my blog! This is my first time coding ever in my life but I am lookin
         /////////////////////////////////////////////////////////////
         let setWall = function(wall_value){
             wall = wall_value;
-            if(wall === 0){screen_snake.style.borderColor = "#606060";}
-            if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
+            if(wall === 0){screen_snake.style.borderColor = "#800080";}
+            if(wall === 1){screen_snake.style.borderColor = "#800080";}
         }
     })();
 </script>
@@ -482,3 +498,99 @@ Welcome to my blog! This is my first time coding ever in my life but I am lookin
 </body>
 	
 </html>
+
+<h2>HTML Cell Output from Jupyter</h2>
+
+<!-- Body contains the contents of the Document -->
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Color</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ford</td>
+                <td>Mustang</td>
+                <td>2022</td>
+                <td>Red</td>
+                <td>$35,000</td>
+            </tr>
+            <tr>
+                <td>Toyota</td>
+                <td>Camry</td>
+                <td>2022</td>
+                <td>Silver</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td>Tesla</td>
+                <td>Model S</td>
+                <td>2022</td>
+                <td>White</td>
+                <td>$80,000</td>
+            </tr>
+            <tr>
+                <td>Cadillac</td>
+                <td>Broughan</td>
+                <td>1969</td>
+                <td>Black</td>
+                <td>$10,000</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>F-350</td>
+                <td>1997</td>
+                <td>Green</td>
+                <td>$15,000</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>Excursion</td>
+                <td>2003</td>
+                <td>Green</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>Ranger</td>
+                <td>2012</td>
+                <td>Red</td>
+                <td>$8,000</td>
+            </tr>
+            <tr>
+                <td>Kuboto</td>
+                <td>L3301 Tractor</td>
+                <td>2015</td>
+                <td>Orange</td>
+                <td>$12,000</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>Fusion Energi</td>
+                <td>2015</td>
+                <td>Guard</td>
+                <td>$25,000</td>
+            </tr>
+            <tr>
+                <td>Acura</td>
+                <td>XL</td>
+                <td>2006</td>
+                <td>Grey</td>
+                <td>$10,000</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>F150 Lightning</td>
+                <td>2024</td>
+                <td>Guard</td>
+                <td>$70,000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
