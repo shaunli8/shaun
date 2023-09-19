@@ -9,8 +9,8 @@ courses: {compsci: {week: 0} }
 categories: [C1.4]
 ---
 
-## Calculator
-
+[Back to Main Home Page](http://0.0.0.0:4200/student/)
+git
 <html>
 <head>
 <meta charset="utf-8">

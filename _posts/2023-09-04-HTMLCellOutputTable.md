@@ -9,6 +9,8 @@ courses: {compsci: {week: 0} }
 categories: [C1.4]
 ---
 
+[Back to Main Home Page](http://0.0.0.0:4200/student/)
+
 <h2>HTML Cell Output from Jupyter</h2>
 
 <!-- Body contains the contents of the Document -->

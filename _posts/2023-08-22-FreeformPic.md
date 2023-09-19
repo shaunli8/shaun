@@ -9,6 +9,6 @@ courses: {compsci: {week: 0} }
 categories: [C1.4]
 ---
 
-⬇️⬇️⬇️ Freeform Picture Introduction ⬇️⬇️⬇️
+[Back to Main Home Page](http://0.0.0.0:4200/student/)
 
 <img src="images/IMG_0111.jpg" width="300"/>

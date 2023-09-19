@@ -9,6 +9,8 @@ courses: {compsci: {week: 0} }
 categories: [C1.4]
 ---
 
+[Back to Main Home Page](http://0.0.0.0:4200/student/)
+
 🌙 Week 0 - 8/16 to 8/18
 
 ✅ My Weekly Goal: Learn the basics of computer science and set up Visual Studio Code
